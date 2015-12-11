@@ -1,7 +1,7 @@
 var paused = false;
 
 function preload() {
-  sound = loadSound('lungs.mp3');
+  sound = loadSound('sspu.mp3');
 }
 
 function setup() {
