@@ -31,6 +31,10 @@ Since this was for computer graphics, I added some other fancy things. I actuall
 The bars underneath that get brighter or dimmer are based on the mid to high frequencies -- so as those increase in volume, the bars will get brighter. The circle in the middle is kind of a speaker thing, that "pumps" out more as the bass gets louder (so mostly on kick drums). 
 But all of the frequencies are visible in the green moving dots in the middle (I did remove some of the lowest frequencies because those seemed to be always present in a recording and I wanted it to better represent what a human actually hears).
 
+# Can this be used for things other than visualizers?
+Actually, in my (somewhat limited) time working with digital audio workstations such as Ableton and ProTools, there are plugins that show the Fourier Transform of a song. It is extremely useful to have frequency information about a song so you can pull out any frequencies
+you may not want in a song, or boost ones you want to enhance! For example, maybe you have a cymbal on your drums that are causing a very unpleasant, high pitched ringing in your song -- using the frequency information of the song, you can find those annoying sounds and pull them out.
+
 I built this pretty much by creating the overall concept and then playing around with numbers and tweaking things until I liked it. So feel free to clone it, put your own songs in, and play around with it or even create completely new visuals.
 
 Thanks for reading!
