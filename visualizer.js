@@ -1,7 +1,7 @@
 var paused = false;
 
 function preload() {
-  sound = loadSound('sspu.mp3');
+  sound = loadSound('song.mp3');
 }
 
 function setup() {
@@ -88,7 +88,7 @@ function makeEnergyRects(midEnergy, highEnergy) {
   beginShape();
 
   for (var i = 0; i < halfWidth*3; i+=rectWidth) {
-    var blue = ((highEnergy*5 + midEnergy/3) + i)/4;
+    var blue = ((highEnergy*3 + midEnergy/3) + i)/4;
     fill(50, 50, blue);
     rect(i, height/2, rectWidth, i/2);
   }
@@ -96,7 +96,7 @@ function makeEnergyRects(midEnergy, highEnergy) {
 
   beginShape();
   for (var i = 0; i < halfWidth*3; i+=rectWidth) {
-    var blue = ((highEnergy*5 + midEnergy/3) + i)/4;
+    var blue = ((highEnergy*3 + midEnergy/3) + i)/4;
     fill(50, 50, blue);
     rect(width-i, height/2, rectWidth, i/2);
   }
